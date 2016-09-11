@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('hello', function() {
     echo "Hello world!";
 });
+Route::get('/home',function(){
+    return view('home');
+});
